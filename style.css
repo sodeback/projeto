@@ -25,6 +25,7 @@
 }
 body{
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body *{
@@ -151,3 +152,12 @@ footer{
   font-size: 1.4rem;
 }
 
+/*resonsividade*/
+@media(min-width: 70rem){
+  :root{
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
